@@ -89,5 +89,3 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 * [LogHub Dataset](https://github.com/logpai/loghub) by LogPAI
 * [Streamlit](https://streamlit.io/) for the interactive UI
-
-```
