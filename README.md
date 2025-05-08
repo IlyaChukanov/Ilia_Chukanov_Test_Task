@@ -7,12 +7,12 @@ An interactive Streamlit-based log analyzer for parsing, filtering, and visualiz
 
 ##  Features
 
--  **Time-Based Filtering** — Select a custom time range to analyze logs.
--  **Log Level Statistics** — View counts and frequency of `INFO`, `WARN`, and `ERROR` logs.
--  **Top Messages** — See the most frequent warning and error messages.
--  **Unique Messages** — Identify messages that occur only once (potential anomalies).
--  **Trend Visualization** — Plot number of log entries per day.
--  **Streamlit Dashboard** — Interactive web interface for exploration.
+- Time-Based Filtering — Select a custom time range to analyze logs.
+- Log Level Statistics — View counts and frequency of `INFO`, `WARN`, and `ERROR` logs.
+- Top Messages — See the most frequent warning and error messages.
+- Unique Messages — Identify messages that occur only once (potential anomalies).
+- Trend Visualization — Plot number of log entries per day.
+- Streamlit Dashboard — Interactive web interface for exploration.
 
 ---
 
