@@ -1,4 +1,4 @@
-````markdown
+
 # HDFS Log Analyzer Dashboard
 
 An interactive Streamlit-based log analyzer for parsing, filtering, and visualizing critical and abnormal events in HDFS logs. This tool is designed to help identify issues by summarizing log data over a customizable time period.
