@@ -72,16 +72,10 @@ log_analyzer/
 
 ##  Future Improvements
 
-* Real-time log file monitoring
+* Real-time log file monitoring (File is read from the end using seek() and tail-like behavior. All logic is wrapped in st.experimental_rerun() or st.cache_data(ttl=5) with refresh timer. User can enable/disable auto refresh)
 * Integration with multiple log sources
-* Anomaly detection using ML models
+* Anomaly detection using ML models (**TF-IDF + Clustering (e.g. DBSCAN, KMeans)** — detect unusual or rare message clusters. **Isolation Forest / One-Class SVM** — learn the “normal” log pattern and flag outliers. **Autoencoders or LSTM Models** — model log sequences or time series for anomaly detection.)
 * Export to CSV or database
-
----
-
-##  License
-
-This project is open-source and available under the [MIT License].
 
 ---
 
