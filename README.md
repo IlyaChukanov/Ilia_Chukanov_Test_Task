@@ -28,13 +28,13 @@ cd hdfs-log-analyzer
 ### 2. Install Dependencies
 
 ```bash
-pip install -r requirements.txt
+py -m pip install -r requirements.txt
 ```
 
 Or install manually:
 
 ```bash
-pip install streamlit pandas
+py -m pip install streamlit pandas
 ```
 
 ### 3. Add Log File
@@ -51,7 +51,7 @@ log_analyzer/
 ### 4. Run the App
 
 ```bash
-streamlit run app.py
+py -m streamlit run app.py
 ```
 
 Open your browser at [http://localhost:8501](http://localhost:8501) to interact with the dashboard.
